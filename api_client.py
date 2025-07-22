@@ -7,7 +7,6 @@ import random
 import requests
 import json
 from typing import List, Optional, Dict, Any
-from dotenv import load_dotenv
 import streamlit as st
 
 
