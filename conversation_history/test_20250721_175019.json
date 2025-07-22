@@ -1,0 +1,11 @@
+{
+  "username": "test",
+  "timestamp": "2025-07-21 17:50:19",
+  "prompt": "tell me about python",
+  "response": "Okay, let's dive into the world of Python!  Here's a comprehensive overview:\n\n**What is Python?**\n\nPython is a high-level, general-purpose programming language.  That means:\n\n*   **High-level:** It's designed to be easy for humans to read and write, abstracting away many of",
+  "model": "google/gemini-2.0-flash-exp:free",
+  "response_time": 7.794179677963257,
+  "prompt_tokens": 5,
+  "response_tokens": 68,
+  "total_tokens": 73
+}

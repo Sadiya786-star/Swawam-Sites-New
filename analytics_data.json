@@ -1,0 +1,15 @@
+{
+  "total_conversations": 19,
+  "total_tokens": 18395,
+  "avg_response_time": 15.96922721360859,
+  "model_usage": {
+    "01-ai/yi-large": 5,
+    "google/gemini-2.0-flash-exp:free": 6,
+    "deepseek/deepseek-chat": 5,
+    "qwen/qwen-2.5-72b-instruct": 3
+  },
+  "user_activity": {
+    "admin": 1,
+    "test": 18
+  }
+}
