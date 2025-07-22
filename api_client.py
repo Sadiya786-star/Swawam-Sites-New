@@ -17,7 +17,7 @@ def load_api_keys() -> List[str]:
     Returns:
         List[str]: List of API keys
     """
-    load_dotenv()
+    #load_dotenv()
 
     api_keys = []
     for i in range(1, 5):  # Load 4 API keys
@@ -198,7 +198,7 @@ def initialize_api_keys() -> bool:
         api_keys = load_api_keys()
 
         if not validate_api_keys(api_keys):
-            st.error("❌ Invalid or missing API keys. Please check your .env file.")
+            st.error("❌ Invalid or missing API keys. Please chcek your streamlit secrets.")
             return False
 
         st.session_state.api_keys = api_keys
